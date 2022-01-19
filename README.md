@@ -23,7 +23,8 @@ docker-compose exec php php artisan key:generate
 docker-compose exec php php artisan jwt:generate
 docker-compose exec php php artisan migrate
 docker-compose exec php php artisan db:seed
-docker-compose exec php php artisan serve --host=0.0.0.0
+docker-compose exec php php artisan serve 
+```
 
 ## API Specification
 
